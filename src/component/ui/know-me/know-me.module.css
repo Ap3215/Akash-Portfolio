@@ -1,0 +1,15 @@
+.know-me__desc1 {
+  font-size: 1.8rem;
+  color: var(--ap-km-color);
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.know-me__desc2 {
+  font-size: 1.8rem;
+  color: var(--ap-km-color);
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,10 @@
+.label {
+  color: var(--ap-black);
+  font-size: 1.4rem;
+  font-family: var(--ap-font);
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left;
+}

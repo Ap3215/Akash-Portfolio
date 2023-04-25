@@ -1,0 +1,30 @@
+.about {
+  padding: 12rem 0;
+  background: var(--ap-bg-about);
+}
+.about__container {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+
+.about__heading {
+  margin-bottom: 9rem;
+}
+.about__heading--sub-heading {
+  display: block;
+  text-align: center;
+  color: #948477;
+  font-size: 2rem;
+  font-family: var(--ap-font);
+  font-weight: 500;
+  max-width: 80rem;
+  margin: auto;
+  line-height: 1.6;
+  margin-top: 3.5rem;
+}
+.about__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+}

@@ -1,0 +1,10 @@
+.skill {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background: var(--ap-skill-bg);
+  color: var(--ap-skill-color);
+  font-weight: 700;
+  font-family: var(--ap-font);
+  border-radius: 0.5rem;
+}

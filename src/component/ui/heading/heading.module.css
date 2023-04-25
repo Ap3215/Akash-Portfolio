@@ -1,0 +1,35 @@
+.heading {
+  text-align: center;
+  font-family: var(--ap-font);
+}
+
+.heading--h1 {
+  font-size: var(--ap-fs-h1);
+  color: var(--ap-white);
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.heading--h2 {
+  font-size: var(--ap-fs-h2);
+  color: var(--ap-black);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.heading--h4 {
+  font-size: var(--ap-fs-h2);
+  color: var(--ap-white);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.heading--h3 {
+  text-transform: capitalize;
+  font-size: var(--ap-fs-h3);
+  color: var(--ap-black);
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: left;
+}
