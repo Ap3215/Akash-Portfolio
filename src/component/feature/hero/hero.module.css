@@ -5,7 +5,7 @@
       rgba(0, 98, 185, 0.8),
       rgba(0, 98, 185, 0.8)
     ),
-    url(../../../../public/images/common-bg.svg);
+    url("/images/common-bg.svg");
   background-position: center;
   height: 100vh;
   min-height: 80rem;
