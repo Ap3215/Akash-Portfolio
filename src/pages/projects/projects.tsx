@@ -5,21 +5,25 @@ import Heading from "../../component/ui/heading/heading";
 import Project from "../../component/ui/project/project";
 
 import classes from "./projects.module.css";
+import{useNavigate } from 'react-router-dom'
 
 const projects = [
+
   {
     id: nanoid(),
     heading: "Project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
-    imgSrc: "/images/project-mockup-example.jpeg",
+    imgSrc: "/images/Perfect-picture.png",
+    to:"https://meek-cactus-83b378.netlify.app/",
   },
   {
     id: nanoid(),
     heading: "Project 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
-    imgSrc: "/images/project-mockup-example.jpeg",
+    imgSrc: "/images/leno-shows.png",
+    to:"google.com",
   },
   {
     id: nanoid(),
@@ -27,10 +31,17 @@ const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
     imgSrc: "/images/project-mockup-example.jpeg",
+    to:"google.com",
   },
 ];
 
 const Projects: FC = () => {
+   const navigate = useNavigate();
+
+   const onClickHandler =(to:string)=>{
+      navigate(to)
+      console.log("getting",to)
+   }
   return (
     <section id="projects" className={classes["projects"]}>
       <div className={classes["projects__container"]}>
@@ -48,6 +59,7 @@ const Projects: FC = () => {
               heading={item.heading}
               description={item.description}
               imgSrc={item.imgSrc}
+              onClick={()=>onClickHandler(item.to)}
             />
           ))}
         </div>

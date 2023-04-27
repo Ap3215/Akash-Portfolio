@@ -9,9 +9,10 @@ type ProjectProps = {
   heading: string;
   description: string;
   imgSrc: string;
+  onClick:any
 };
 
-const Project: FC<ProjectProps> = ({ heading, description, imgSrc }) => {
+const Project: FC<ProjectProps> = ({ heading, description, imgSrc, onClick}) => {
   return (
     <div className={classes["project__content__row"]}>
       <div className={classes["project__content__row-img"]}>
@@ -24,7 +25,7 @@ const Project: FC<ProjectProps> = ({ heading, description, imgSrc }) => {
       <div className={classes["project__content__row--desc"]}>
         <Heading type="h3">{heading}</Heading>
         <p className={classes["project-content-desc"]}>{description}</p>
-        <Button size="md" color="white">
+        <Button size="md" color="white" onClick={onClick}>
           Case Study
         </Button>
       </div>
