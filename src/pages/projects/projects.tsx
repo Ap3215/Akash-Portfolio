@@ -1,11 +1,10 @@
 import { FC } from "react";
 import { nanoid } from "nanoid";
-
 import Heading from "../../component/ui/heading/heading";
 import Project from "../../component/ui/project/project";
 
 import classes from "./projects.module.css";
-import{useNavigate } from 'react-router-dom'
+
 
 const projects = [
 
@@ -36,11 +35,11 @@ const projects = [
 ];
 
 const Projects: FC = () => {
-   const navigate = useNavigate();
+  
 
    const onClickHandler =(to:string)=>{
-    window.location.replace(to);
-      console.log("getting",to)
+    window.open(to, "_blank");
+      
    }
   return (
     <section id="projects" className={classes["projects"]}>
