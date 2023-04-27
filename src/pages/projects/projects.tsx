@@ -23,7 +23,7 @@ const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
     imgSrc: "/images/leno-shows.png",
-    to:"google.com",
+    to:"https://leno-shows.vercel.app/",
   },
   {
     id: nanoid(),
@@ -39,7 +39,7 @@ const Projects: FC = () => {
    const navigate = useNavigate();
 
    const onClickHandler =(to:string)=>{
-      navigate(to)
+    window.location.replace(to);
       console.log("getting",to)
    }
   return (
