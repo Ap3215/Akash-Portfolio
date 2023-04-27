@@ -12,7 +12,7 @@ const projects = [
     id: nanoid(),
     heading: "Project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
+      "This is Gallery application bulid with React and Firebase. Its allows you to upload images and fetch them in real time",
     imgSrc: "/images/Perfect-picture.png",
     to:"https://meek-cactus-83b378.netlify.app/",
   },
