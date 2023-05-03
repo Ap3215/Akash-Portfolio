@@ -20,7 +20,7 @@ const projects = [
     id: nanoid(),
     heading: "Project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
+      "This is Movie application build with React-Native. We use Imdb API for rendering movie or show data on UI.  ",
     imgSrc: "/images/leno-shows.png",
     to:"https://leno-shows.vercel.app/",
   },
@@ -28,9 +28,9 @@ const projects = [
     id: nanoid(),
     heading: "Project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hicfacilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
-    imgSrc: "/images/project-mockup-example.jpeg",
-    to:"google.com",
+      "This is LinkedIn clone application build on React and Firebase that will allow to user login and posts on web.",
+    imgSrc: "/images/LinkedIn-clone.png",
+    to:"https://dazzling-gaufre-a093d8.netlify.app/",
   },
 ];
 
